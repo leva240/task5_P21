@@ -1,6 +1,6 @@
 <?php
 
-function alphabeticalOrder($str){
+function alphabeticalOrder(string $str): string{
 
     $chars = str_split(string: $str);
 
@@ -9,6 +9,7 @@ function alphabeticalOrder($str){
     return implode('', $chars);
 };
 
+echo "введите строку:";
 $str = readline();
 
 echo alphabeticalOrder($str);

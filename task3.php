@@ -1,7 +1,7 @@
 <?php
 
 // Функция для нахождения самого частого слова в тексте
-function mostRecent($text)
+function mostRecent(string $text): string
 {
 
     if (strlen($text) > 1000) {

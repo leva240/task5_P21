@@ -1,6 +1,6 @@
 <?php
 
-function findPerfectNumber($array) {
+function findPerfectNumber(array $array): mixed {
     foreach ($array as $number) {
         if ($number <= 0) continue; // Только положительные целые числа
 
